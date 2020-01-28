@@ -19,6 +19,7 @@ public class UserServiceImpl implements UserService {
         return userRepositoryIMPL.getByUsername( username );
     }
 
+
     @Override
     public UserRepository getUserRepository() {
         return userRepositoryIMPL;
